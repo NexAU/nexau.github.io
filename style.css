@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Prompt:400,500');
+
+body {
+  background-color: #7c7c7c;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto:700', sans-serif;
+  color: #FFFFFF;
+}
+
+.header {
+  margin-top: 350px;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+
+.sub-header {
+  letter-spacing: 3px;
+  font-size: 18px;
+  margin-top: -50px;
+}
+
+.social {
+  width: 270px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social img {
+  width: 64px;
+  height: 64px;
+  padding-bottom: 5px;
+}
+
+.social img:hover {
+  border-bottom: 1px solid white;
+}
