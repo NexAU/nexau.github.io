@@ -230,4 +230,19 @@ nav a:hover {
     nav a i {
       visibility: hidden;
     }
+
+    .mainSection {
+      text-align: left;
+      margin: 15% 0 60% 0;
+    }
+
+    .mainSection p {
+      text-align: left;
+      margin: 2% 0 0 0;
+    }
+
+    .mainFooter {
+      text-align: left;
+      font-size: 0.8em;
+    }
   }
