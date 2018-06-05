@@ -95,7 +95,7 @@ a.contactLinks {
   margin: 0 auto;
   text-align: center;
   padding-top: 145px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   letter-spacing: 3px;
   font-weight: 300;
   font-size: 20px;
@@ -107,4 +107,89 @@ a.contactLinks {
 
 .seeMore a:hover {
   opacity: 0.5;
+}
+
+
+/* |- RESPONSIVE -| */
+@media only screen and (max-width: 1700px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  .seeMore {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  .seeMore {
+    margin-bottom: 0;
+  }
+
+  .contactLinks img {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .seeMore {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .seeMore {
+    padding-top: 115px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 615px) {
+  .contentWrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .seeMore {
+    padding-top: 85px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .seeMore {
+    margin-bottom: 0;
+  }
+
+  nav {
+    padding-bottom: 85px;
+  }
+
+  .contactLinks img {
+    width: 45px;
+    height: 45px;
+  }
+
+  a.contactLinks {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
