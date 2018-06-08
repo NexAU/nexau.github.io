@@ -49,22 +49,27 @@ h1 {
 
 /* |- NAVIGATION -| */
 nav {
-  width: 300px;
-  height: 300px;
+  width: 230px;
+  height: 230px;
   margin: 0 auto;
   display: flex;
 }
 
+nav img {
+  width: 230px;
+  height: 230px;
+}
+
 /* |- INFO SECTION -| */
 .infoSection {
-  padding-top: 110px;
+  padding-top: 195px;
   margin: 0 auto;
   width: 90%;
   text-align: center;
 }
 
 .infoSectionHeader h1 {
-  font-size: 4.5em;
+  font-size: 4em;
   font-weight: 700;
 }
 
@@ -72,6 +77,11 @@ nav {
   padding-top: 10px;
   margin: 0 auto;
   width: 35%;
+}
+
+.twitterIcon img, .emailIcon img {
+  width: 85px;
+  height: 85px;
 }
 
 .twitterIcon, .emailIcon {
@@ -89,18 +99,19 @@ nav {
 
 /* |- SEE MORE SECTION -| */
 .seeMoreSection {
-  padding-top: 110px;
+  padding-top: 195px;
   margin: 0 auto;
   width: 20%;
   text-align: center;
 }
 
-.seeMoreText h2 {
-  font-size: 2em;
-}
-
 .seeMoreArrow {
   padding-top: 3px;
+}
+
+.arrowIcon img {
+    width: 40px;
+    height: 40px;
 }
 
 .arrowIcon {
@@ -113,7 +124,7 @@ nav {
 
 /* |- PORTFOLIO SECTION -| */
 .portfolioSection {
-  padding-top: 35px;
+  padding-top: 50px;
   padding-bottom: 35px;
   margin: 0 auto;
   width: 90%;
@@ -121,7 +132,7 @@ nav {
 }
 
 .portfolioSectionHeader h2 {
-  font-size: 3.8em;
+  font-size: 3.3em;
 }
 
 .portfolioSectionShowcase {
@@ -144,7 +155,7 @@ nav {
 }
 
 footer p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 footer span {
