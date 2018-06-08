@@ -1,12 +1,3 @@
-/* |- COLOUR THEME -| */
-/*
-LIGHT BLUE    #77C9D4
-LIGHT GREEN   #57BC90
-DARK GREEN    #015249
-LIGHT GREY    #A5A5AF
-WHITE         #FFFFFF
-*/
-
 /* |- FONT IMPORTS -| */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
@@ -18,6 +9,8 @@ WHITE         #FFFFFF
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 body, html {
@@ -34,188 +27,131 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background-image: url("assets/desktop/desktop-backgroundImage.jpg");
+  background-color: #77C9D4;
+  background-image: url("assets/backgroundImg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 }
 
-.navClearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.contentWrapper {
+.websiteWrapper {
   margin: 0 auto;
-  width: 60%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 90%;
 }
 
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 100%;
 }
-
 
 /* |- NAVIGATION -| */
 nav {
-  width: 204px;
-  height: 204px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 125px;
+  display: flex;
 }
 
-
-/* |- MAIN INFORMATION -| */
-.mainInfo {
-  width: 100%;
+/* |- INFO SECTION -| */
+.infoSection {
+  padding-top: 110px;
   margin: 0 auto;
+  width: 90%;
   text-align: center;
 }
 
-h1.header {
+.infoSectionHeader h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.infoSectionIcons {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.twitterIcon, .emailIcon {
+  opacity: 0.7;
+}
+
+.twitterIcon:hover, .emailIcon:hover {
+  opacity: 1;
+}
+
+.infoSectionIcons a {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* |- SEE MORE SECTION -| */
+.seeMoreSection {
+  padding-top: 110px;
+  margin: 0 auto;
+  width: 20%;
+  text-align: center;
+}
+
+.seeMoreText h2 {
+  font-size: 2em;
+}
+
+.seeMoreArrow {
+  padding-top: 3px;
+}
+
+.arrowIcon {
+  opacity: 0.7;
+}
+
+.arrowIcon:hover {
+  opacity: 1;
+}
+
+/* |- PORTFOLIO SECTION -| */
+.portfolioSection {
+  padding-top: 35px;
   padding-bottom: 35px;
-}
-
-a.contactLinks {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.contactLinks img:hover {
-  opacity: 0.5;
-}
-
-
-/* |- SEE MORE -| */
-.seeMore {
-  width: 100%;
   margin: 0 auto;
+  width: 90%;
   text-align: center;
-  padding-top: 145px;
-  margin-bottom: 50px;
-  letter-spacing: 3px;
-  font-weight: 300;
-  font-size: 20px;
 }
 
-.seeMore img {
-  padding-top: 8px;
+.portfolioSectionHeader h2 {
+  font-size: 3.8em;
 }
 
-.seeMore a:hover {
-  opacity: 0.5;
+.portfolioSectionShowcase {
+  padding-top: 5px;
 }
 
-
-/* |- RESPONSIVE -| */
-@media only screen and (max-width: 1700px) {
-  h1 {
-    font-size: 65px;
-  }
-
-  .seeMore {
-    margin-bottom: 0;
-  }
+.projectImages {
+  padding-top: 10px;
 }
 
-@media only screen and (max-width: 1120px) {
-  h1 {
-    font-size: 55px;
-  }
-
-  .seeMore {
-    margin-bottom: 0;
-  }
-
-  .contactLinks img {
-    width: 55px;
-    height: 55px;
-  }
+.projectImages img {
+  padding: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 945px) {
-  h1 {
-    font-size: 45px;
-  }
-
-  .seeMore {
-    margin-bottom: 0;
-  }
+/* |- FOOTER -| */
+.footerBar footer {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
 }
 
-@media only screen and (max-width: 775px) {
-  .seeMore {
-    padding-top: 115px;
-    margin-bottom: 0;
-  }
+footer p {
+  font-size: 1.3em;
 }
 
-@media only screen and (max-width: 615px) {
-  .contentWrapper {
-    width: 70%;
-  }
+footer span {
+  opacity: 0.7;
 }
 
-@media only screen and (max-width: 530px) {
-  h1 {
-    font-size: 40px;
-  }
-
-  .seeMore {
-    padding-top: 85px;
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (max-width: 415px) {
-  h1 {
-    font-size: 35px;
-  }
-
-  .seeMore {
-    margin-bottom: 0;
-  }
-
-  nav {
-    padding-bottom: 85px;
-  }
-
-  .contactLinks img {
-    width: 45px;
-    height: 45px;
-  }
-
-  a.contactLinks {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  h1 {
-    font-size: 25px;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  nav img {
-    width: 170px;
-    height: 170px;
-  }
-
-  nav {
-    width: 170px;
-    height: 170px;
-    padding-bottom: 60px;
-  }
-}
-
-@media only screen and (max-width: 325px) {
-  .seeMore {
-    padding-top: 35px;
-    font-size: 15px;
-  }
+footer span:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
